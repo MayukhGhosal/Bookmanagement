@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.wrapper{
+    overflow-x: hidden;
+    overflow-y: auto;   
+    background-image: url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxODI2NzN8MHwxfHNlYXJjaHwxfHxsaWJyYXJ5fGVufDF8MHx8&ixlib=rb-1.2.1&q=80&w=400");
+}
+
+.wrapper h1{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.wrapper p{
+    text-align: center;
+    margin-top: 7px;
+    font-weight: bold;
+    color: aqua;
+}
+
+.wrapper .main{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+.wrapper .form-container{
+    width: 500px;
+    height: 340px;
+    background-color: #e4e4e4;
+    margin: 20px auto;
+    padding: 20px;   
+}
+
+.wrapper .form-container .btn{
+    width: 100%;   
+}
+
+.wrapper .view-container{
+    width: 600px;    
+    background-color: #e4e4e4;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.delete-btn{
+    color: red;
+    cursor: pointer;
+}
+
+tbody{
+    margin-top: 25px;
+}
